@@ -34,7 +34,7 @@ def verify_fb_token(token_sent):
 
 def get_message():
     x = "person"
-    response = ["Hi" + x + ", I'm DadBot"]
+    response = "Hi" + x + ", I'm DadBot"
     return response
 
 def send_message(recipient_id, response):
